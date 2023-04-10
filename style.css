@@ -111,10 +111,18 @@ span{
     background: transparent;
     color: aquamarine;
 }
-.social-media a {
-    display: inline-flex;
+.social-media{
+    display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.item a {
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content:center ;
     height: 2rem;
     width: 2rem;
     background: transparent;
@@ -122,17 +130,54 @@ span{
     color:blue;
     font-size: 1.5rem;
     margin: 2rem 1.0rem 2rem 0;
-    border-radius: 40%;
-    transition: 5s ease;
-    text-decoration: none;
+    border-radius: 50%;
+    position: relative;
+    
+    
+}
+.about{
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+.about-text h4{
+    margin: 10px 0;
+    color: navajowhite;
+    font-size: 20px;
+    font-weight: 600;
+}
+.about-text h2 {
+    font-size: 4rem;
+}
+.about-text p{
+    color: whitesmoke;
+    font-size:19px ;
+    line-height: 26px;
+    margin-bottom: 2rem;
+}
+.about-gri{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.about-in h5{
+    font-size: 21px;
+    font-weight: 600;
+}
+.about-img img{
+    height: auto;
+    width: 100;
+    max-width: 460px;
+}
+
+    
     
 
-}
-.social-media a:hover{
-    background: blue;
-    color: #fff;
-    box-shadow: 0 0 1rem aqua;
-}
+
+
 
 
 
