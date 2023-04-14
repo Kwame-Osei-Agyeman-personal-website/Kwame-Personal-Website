@@ -173,6 +173,16 @@ span{
     max-width: 460px;
 }
 
+.form-wrapper{
+    margin: 150px;
+    padding: 20px;
+    width: 30%;
+}
+
+form{
+    align-items: center;
+}
+
     
     
 

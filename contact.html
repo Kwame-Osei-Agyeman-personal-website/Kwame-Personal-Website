@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="/style.css">
-    <script src="/javascript.js"></script>
+   
   </head>
   <body>
     <header class="header">
@@ -20,11 +20,11 @@
       </header>
     <main>
       <section class="form-wrapper">
-        <form action="/contact.html" method="POST">
+        <form id="form" action="/contact.html" method="POST">
           <div class="input-group">
-            <label for="first name"
+            <!-- <label for="first name"
               ><i class="bx bxs-user"></i>First Name:</label
-            >
+            > -->
             <input
               type="text"
               name="firstname"
@@ -32,7 +32,7 @@
               class="First-Name"
               placeholder="first name"
             />
-            <label for="last name"><i class="bx bxs-user"></i>last Name:</label>
+            <!-- <label for="last name"><i class="bx bxs-user"></i>last Name:</label> -->
             <input
               type="text"
               name="lastname"
@@ -42,7 +42,7 @@
             />
           </div>
           <div class="input-group">
-            <label for=""><i class="bx bx-envelope"></i>Email Id:</label>
+            <!-- <label for=""><i class="bx bx-envelope"></i>Email Id:</label> -->
             <input
               type="email"
               name="emailid"
@@ -52,9 +52,9 @@
             />
           </div>
           <div>
-            <label for="phonenumber"
-              ><i class="bx bx-phone"></i>Phone No. :</label
-            >
+            <!-- <label for="phonenumber"
+              ><i class="bx bx-phone"></i>Phone No. :</label -->
+            <!-- > -->
             <input
               type="text"
               name="phonenumber"
@@ -64,7 +64,7 @@
             />
           </div>
           <div>
-            <label for="message">Subject:</label>
+            <!-- <label for="message">Subject:</label> -->
             <input
               name="subject"
               id="subject"
@@ -74,7 +74,7 @@
             ></input>
           </div>
           <div>
-            <label for="message">Your message:</label>
+            <!-- <label for="message">Your message:</label> -->
             <textarea
               name="message"
               id="message"
@@ -83,9 +83,10 @@
               placeholder="Description"
             ></textarea>
           </div>
-          <button type="submit"><i class="bx bx-send"></i>SUBMIT</button>
+          <button id="submit" type="submit"><i class="bx bx-send"></i>SUBMIT</button>
         </form>
       </section>
     </main>
+    <script src="/javascript.js"></script>
   </body>
 </html>
