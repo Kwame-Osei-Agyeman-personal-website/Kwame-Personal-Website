@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="/style.css">
+   
+  </head>
+  <body>
+    <header class="header">
+        <span id="name">Agyeman</span>
+        <nav class="nav-bar">
+          <a href="/index.html">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/portfolio.html">Portfolio</a>
+          <a href="/contact.html">Contact Me</a>
+        </nav>
+      </header>
+    <main>
+      <section class="form-wrapper">
+        <form id="form" action="/contact.html" method="POST">
+          <div class="input-group">
+            <!-- <label for="first name"
+              ><i class="bx bxs-user"></i>First Name:</label
+            > -->
+            <input
+              type="text"
+              name="firstname"
+              id="first name"
+              class="First-Name"
+              placeholder="first name"
+            />
+            <!-- <label for="last name"><i class="bx bxs-user"></i>last Name:</label> -->
+            <input
+              type="text"
+              name="lastname"
+              id="last name"
+              class="lastname"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="input-group">
+            <!-- <label for=""><i class="bx bx-envelope"></i>Email Id:</label> -->
+            <input
+              type="email"
+              name="emailid"
+              id="email id"
+              class="email"
+              placeholder="Email"
+            />
+          </div>
+          <div>
+            <!-- <label for="phonenumber"
+              ><i class="bx bx-phone"></i>Phone No. :</label -->
+            <!-- > -->
+            <input
+              type="text"
+              name="phonenumber"
+              id="phone number"
+              class="phone"
+              placeholder="000-000-0000"
+            />
+          </div>
+          <div>
+            <!-- <label for="message">Subject:</label> -->
+            <input
+              name="subject"
+              id="subject"
+              cols="9"
+              class="Subject"
+              placeholder="Subject"
+            ></input>
+          </div>
+          <div>
+            <!-- <label for="message">Your message:</label> -->
+            <textarea
+              name="message"
+              id="message"
+              cols="9"
+              class="messsage"
+              placeholder="Description"
+            ></textarea>
+          </div>
+          <button id="submit" type="submit"><i class="bx bx-send"></i>SUBMIT</button>
+        </form>
+      </section>
+    </main>
+    <script src="/javascript.js"></script>
+  </body>
+</html>
