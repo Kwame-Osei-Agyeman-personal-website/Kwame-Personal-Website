@@ -172,6 +172,55 @@ span{
     width: 100;
     max-width: 460px;
 }
+/* Portfolio section styling */
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    margin: 65px;
+}
+
+.heading{
+    text-align: center;
+}
+.portfolio-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.portfolio-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 380px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
+    background-size:100% 200% ;
+    transition:all .8s ;
+}
+.portfolio-box:hover {
+    background-position:left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
+
+}
+
+.box img {
+    height: 100px;
+    width: 80px;
+    background-color: white;
+    padding: 10px;
+}
+
 
 .form-wrapper{
     margin: 150px;
