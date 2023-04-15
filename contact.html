@@ -20,6 +20,7 @@
       </header>
     <main>
       <section class="form-wrapper">
+        <h2 class="heading">Contact<span>Me</span></h2>
         <form id="form" action="/contact.html" method="POST">
           <div class="input-group">
             <!-- <label for="first name"
@@ -30,7 +31,7 @@
               name="firstname"
               id="first name"
               class="First-Name"
-              placeholder="first name"
+              placeholder="First Name"
             />
             <!-- <label for="last name"><i class="bx bxs-user"></i>last Name:</label> -->
             <input
@@ -51,7 +52,7 @@
               placeholder="Email"
             />
           </div>
-          <div>
+          <div class="input-group">
             <!-- <label for="phonenumber"
               ><i class="bx bx-phone"></i>Phone No. :</label -->
             <!-- > -->
@@ -60,27 +61,19 @@
               name="phonenumber"
               id="phone number"
               class="phone"
-              placeholder="000-000-0000"
+              placeholder="Phone Number"
             />
           </div>
-          <div>
-            <!-- <label for="message">Subject:</label> -->
-            <input
-              name="subject"
-              id="subject"
-              cols="9"
-              class="Subject"
-              placeholder="Subject"
-            ></input>
-          </div>
+          
           <div>
             <!-- <label for="message">Your message:</label> -->
             <textarea
               name="message"
               id="message"
-              cols="9"
+              cols="20"
+              rows="10"
               class="messsage"
-              placeholder="Description"
+              placeholder="Your message"
             ></textarea>
           </div>
           <button id="submit" type="submit"><i class="bx bx-send"></i>SUBMIT</button>

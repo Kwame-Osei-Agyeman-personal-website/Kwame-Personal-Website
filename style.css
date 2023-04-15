@@ -221,16 +221,51 @@ span{
     padding: 10px;
 }
 
+/* contact me styling section */
 
-.form-wrapper{
-    margin: 150px;
-    padding: 20px;
-    width: 30%;
+
+.form-wrapper h2 {
+    margin-bottom: 3rem;
 }
 
-form{
-    align-items: center;
+.form-wrapper form {
+    max-width: 45rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
 }
+
+.form-wrapper form .input-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-wrapper form .input-group input,
+.form-wrapper form textarea {
+    width: 100%;
+    padding: 1.0rem;
+    font-size: 1.4rem;
+    color: white;
+    background: slateblue;
+    border-radius: .4rem;
+    margin: .6rem 0;
+    box-shadow: 0 0.1rem 0.5rem slateblue;
+
+} 
+
+#submit {
+    padding: 10px 0;
+    color: white;
+    background: slateblue;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+
+
 
     
     
