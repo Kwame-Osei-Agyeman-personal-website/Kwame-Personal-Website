@@ -119,7 +119,7 @@ span{
 }
 
 .item a {
-    display: inline-flex;
+    display: inline-flex; 
     text-decoration: none;
     align-items: center;
     justify-content:center ;
@@ -135,6 +135,8 @@ span{
     
     
 }
+
+/* about page styling */
 .about{
     display: flex;
     grid-template-columns: repeat(2,1fr);
