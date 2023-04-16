@@ -172,6 +172,17 @@ span{
     width: 100;
     max-width: 460px;
 }
+
+.btn {
+    padding: 9px 34px;
+    background-color: transparent;
+    border-radius: 16px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .7s ease;
+}
 /* Portfolio section styling */
 
 #portfolio{
@@ -179,6 +190,14 @@ span{
     flex-direction: column;
     padding:20px;
     margin: 65px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow:0 0 5px white ;
+    font-weight: bold;
 }
 
 .heading{
